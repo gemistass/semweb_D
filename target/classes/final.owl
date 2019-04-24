@@ -1,0 +1,1984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/includes">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.sensoractivities.org/activity"/>
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.sensoractivities.org/observation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/content">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.sensoractivities.org/activity"/>
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.sensoractivities.org/observation"/>
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/end">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.sensoractivities.org/activity"/>
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.sensoractivities.org/observation"/>
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/start">
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.sensoractivities.org/activity"/>
+	<domain xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.sensoractivities.org/observation"/>
+	<range xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/activity">
+	<onProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.sensoractivities.org/includes"/>
+	<allValuesFrom xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://www.sensoractivities.org/observation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/activity"/>
+	<content xmlns="http://www.sensoractivities.org/">PrepareHotTea</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:10:50</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:17:30</end>
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs0">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sugar</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:14:27</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:14:54</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs1">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TeaBag</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:16:35</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:16:56</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs2">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TeaBag</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:15:41</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:16:07</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs3">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Kettle</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:10:50</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:11:19</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs4">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Kettle</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:17:01</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:17:30</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs5">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Kettle</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:13:05</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:13:27</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs6">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sugar</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:13:38</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:14:02</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs7">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TeaZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:12:09</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:12:31</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs8">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TeaZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:12:15</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:12:37</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs9">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TeaZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:10:51</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:11:16</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs10">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TeaZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:11:42</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:12:10</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs11">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TeaZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:16:25</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:16:52</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs12">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TeaZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:11:30</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:11:59</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act0">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs13">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TeaZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:15:58</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:16:26</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/activity"/>
+	<content xmlns="http://www.sensoractivities.org/">MakePhoneCall</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:18:43</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:34</end>
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs14">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Phone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:20:53</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:21:15</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs15">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Phone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:20:17</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:20:43</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs16">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Phone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:20:28</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:20:55</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs17">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Phone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:23:23</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:23:46</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs18">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Phone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:20:24</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:20:45</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs19">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Phone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:26:17</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:26:38</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs20"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs20">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Phone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:20:04</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:20:28</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs21"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs21">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PhoneZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:24:13</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:24:34</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs22"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs22">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PhoneZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:19:01</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:19:21</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs23"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs23">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PhoneZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:23:28</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:23:51</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs24"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs24">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PhoneZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:24:35</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:24:57</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs25"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs25">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PhoneZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:26:49</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:12</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs26"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs26">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PhoneZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:24:17</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:24:46</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs27"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs27">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PhoneZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:25:13</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:25:40</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs28"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs28">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Talk</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:18:43</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:19:06</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs29"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs29">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PickUpPhone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:22:02</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:22:30</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs30"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs30">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Talk</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:25:36</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:26:02</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs31"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs31">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Talk</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:22:49</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:23:10</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs32"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs32">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PickUpPhone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:29</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs33"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs33">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PickUpPhone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:09</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:34</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act1">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs34"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs34">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Spoon</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:18</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:46</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/activity"/>
+	<content xmlns="http://www.sensoractivities.org/">DrinkTea</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:18</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:41:53</end>
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs35"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs35">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Cup</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:34:54</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:35:15</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs36"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs36">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Spoon</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:18</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:27:46</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs37"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs37">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Cup</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:29:09</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:29:30</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs38"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs38">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Cup</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:39:56</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:40:16</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs39"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs39">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Cup</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:30:30</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:30:53</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs40"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs40">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Cup</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:40:49</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:41:12</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs41"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs41">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Spoon</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:33:50</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:34:18</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs42"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs42">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Cup</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:34:51</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:35:15</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs43"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs43">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Spoon</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:28:53</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:29:22</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs44"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs44">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Cup</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:28:53</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:29:14</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs45"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs45">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Spoon</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:36:42</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:37:06</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs46"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs46">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:36:28</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:36:53</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs47"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs47">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:36:08</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:36:36</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs48"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs48">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:31:04</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:31:29</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs49"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs49">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:28:25</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:28:51</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs50"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs50">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:41:07</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:41:29</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs51"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs51">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:32:35</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:33:02</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs52"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs52">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:34:58</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:35:23</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs53"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs53">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:41:17</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:41:41</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs54"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs54">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:38</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:38:20</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs55"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs55">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:38:27</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:38:50</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs56"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs56">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:30:47</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:31:16</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs57"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs57">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:28:47</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:29:07</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs58"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs58">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:41:24</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:41:53</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs59"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs59">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:40:08</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:40:32</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs60"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs60">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:36:19</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:36:45</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs61"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs61">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:29:40</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:30:07</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs62"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs62">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:28:51</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:29:18</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs63"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs63">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:31:56</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:32:19</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs64"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs64">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:36:47</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:37:16</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs65"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs65">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:34:25</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:34:45</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs66"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs66">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:32:08</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:32:30</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act2">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs67"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs67">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:29:36</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:30</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/activity"/>
+	<content xmlns="http://www.sensoractivities.org/">PrepareDrugBox</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:42:34</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:40</end>
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs68"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs68">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pillbox</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:16</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:40</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs69"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs69">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pillbox</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:43:41</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:44:02</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs70"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs70">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pillbox</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:46:34</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:46:56</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs71"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs71">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pillbox</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:52:40</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:53:02</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs72"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs72">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Basket</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:49:59</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:50:26</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs73"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs73">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Basket</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:49:41</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:50:06</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs74"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs74">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Basket</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:01</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:27</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs75"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs75">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pillbox</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:46:41</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:47:04</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs76"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs76">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Basket</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:42:34</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:43</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs77"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs77">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pillbox</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:51:55</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:52:20</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs78"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs78">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:53:59</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:54:27</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs79"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs79">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:43:26</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:43:46</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs80"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs80">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:47:27</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:47:48</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs81"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs81">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:43:42</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:44:10</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs82"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs82">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:50:11</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:50:35</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs83"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs83">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:45:39</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:46:02</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs84"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs84">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:52:54</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:53:16</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs85"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs85">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:49:13</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:49:40</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs86"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs86">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:54:29</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:54:52</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs87"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs87">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MedicationZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:46:07</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:46:32</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs88"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs88">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Plant</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:31</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:51</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs89"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs89">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PlantZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:11</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:40</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act3">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs90"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs90">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Bending</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:05</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:32</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/activity"/>
+	<content xmlns="http://www.sensoractivities.org/">WaterPlant</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:05</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:23</end>
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs91"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs91">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pillbox</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:16</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:40</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs92"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs92">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Plant</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:03</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:23</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs93"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs93">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">WateringCan</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:57:47</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:58:10</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs94"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs94">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">WateringCan</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:00:13</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:00:33</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs95"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs95">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Plant</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:31</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:51</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs96"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs96">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Plant</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:58:04</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:58:32</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs97"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs97">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">WateringCan</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:59:49</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:00:15</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs98"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs98">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PlantZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:11</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:40</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs99"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs99">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PlantZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:57:02</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:57:27</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs100"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs100">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PlantZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:57:25</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:57:52</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs101"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs101">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PlantZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:59:37</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:00:05</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs102"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs102">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">PlantZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:02:30</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:02:57</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs103"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs103">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Bending</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:02:47</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:07</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs104"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs104">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Bending</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:01:24</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:01:52</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs105"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs105">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Bending</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:05</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T18:55:32</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs106"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs106">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Bending</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:02:36</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:05</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs107"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs107">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Bending</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:00:50</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:01:18</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act4">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs108"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs108">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:17</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:42</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/activity"/>
+	<content xmlns="http://www.sensoractivities.org/">ReadArticle</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:17</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:18:09</end>
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs109"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs109">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:15:57</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:16:19</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs110"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs110">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:29</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:53</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs111"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs111">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:10:25</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:10:51</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs112"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs112">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:15:47</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:16:13</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs113"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs113">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:08:48</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:09:08</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs114"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs114">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:17:43</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:18:09</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs115"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs115">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:17</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:03:42</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs116"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs116">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:09:46</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:10:12</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs117"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs117">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:10:57</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:11:23</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs118"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs118">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Newspaper</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:12:29</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:12:58</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs119"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs119">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:05:13</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:05:33</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs120"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs120">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:05:34</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:05:54</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs121"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs121">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:14:18</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:14:42</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs122"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs122">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:17:35</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:17:59</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs123"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs123">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:10:22</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:10:48</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs124"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs124">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:06:33</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:07:01</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs125"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs125">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:14:52</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:15:12</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs126"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs126">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:05:45</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:06:12</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs127"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs127">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:14:52</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:15:19</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs128"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs128">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:05:37</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:06</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act5">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs129"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs129">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:04:47</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:05:08</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act6">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/activity"/>
+	<content xmlns="http://www.sensoractivities.org/">EstablishAccountBalance</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:19:09</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:22:11</end>
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs130"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs130">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pen</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:21:46</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:22:07</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act6">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs131"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs131">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Accounts</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:20:48</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:21:10</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act6">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs132"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs132">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:20:53</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:21:17</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act6">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs133"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs133">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:20:09</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:20:32</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act6">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs134"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs134">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:19:09</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:19:36</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act6">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs135"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs135">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:21:48</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:22:11</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/activity"/>
+	<content xmlns="http://www.sensoractivities.org/">WriteCheck</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:22:13</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:51</end>
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs136"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs136">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pen</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:27:20</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:27:44</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs137"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs137">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Table</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:22</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:51</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs138"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs138">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Table</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:22:27</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:22:51</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs139"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs139">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Pen</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:26:33</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:27:01</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs140"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs140">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Table</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:22:13</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:22:34</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs141"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs141">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:26:24</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:26:46</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs142"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs142">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:24:38</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:24:59</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs143"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs143">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:23:39</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:24:07</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs144"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs144">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:25:21</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:25:43</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs145"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs145">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:25:48</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:26:11</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs146"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs146">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">TableZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:26:54</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:27:15</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs147"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs147">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:23:48</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:24:13</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs148"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs148">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:28:56</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:23</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs149"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs149">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:27:26</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:27:53</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs150"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs150">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:23:31</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:24</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs151"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs151">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Sitting</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:23:43</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:24:09</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act7">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs152"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs152">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:10</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:33</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/activity"/>
+	<content xmlns="http://www.sensoractivities.org/">SearchForBusLine</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:10</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:42:57</end>
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs153"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs153">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Table</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:22</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:51</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs154"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs154">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">RouteInstructions</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:42:05</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:42:28</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs155"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs155">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">RouteInstructions</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:37:56</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:38:21</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs156"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs156">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Map</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:30:13</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:30:37</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs157"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs157">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">RouteInstructions</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:40:15</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:40:42</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs158"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs158">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Map</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:37:54</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:38:19</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs159"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs159">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">RouteInstructions</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:35:47</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:36:08</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs160"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs160">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Map</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:37:48</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:38:14</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs161"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs161">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">RouteInstructions</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:37:44</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:38:05</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs162"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs162">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">Map</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:39:12</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:39:37</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs163"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs163">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">RouteInstructions</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:34:41</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:35:08</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs164"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs164">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:39:49</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:40:11</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs165"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs165">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:10</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:29:33</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs166"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs166">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:31:41</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:32:03</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs167"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs167">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:40:45</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:41:11</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs168"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs168">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:35:39</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:36:04</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs169"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs169">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:37:27</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:37:55</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs170"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs170">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:42:10</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:42:33</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs171"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs171">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:39:49</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:40:11</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs172"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs172">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:42:33</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:42:57</end>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/act8">
+	<includes xmlns="http://www.sensoractivities.org/" rdf:resource="http://www.sensoractivities.org/obs173"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.sensoractivities.org/obs173">
+	<rdf:type rdf:resource="http://www.sensoractivities.org/observation"/>
+	<content xmlns="http://www.sensoractivities.org/">MapZone</content>
+	<start xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:35:08</start>
+	<end xmlns="http://www.sensoractivities.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-05T19:35:29</end>
+</rdf:Description>
+
+</rdf:RDF>

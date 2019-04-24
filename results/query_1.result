@@ -1,0 +1,58 @@
+-----Overlapping activities-----
+
+
+act1 = http://www.sensoractivities.org/act1
+start1 = "2014-05-05T18:18:43"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end1 = "2014-05-05T18:27:34"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+act2 = http://www.sensoractivities.org/act2
+start2 = "2014-05-05T18:27:18"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end2 = "2014-05-05T18:41:53"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+
+act1 = http://www.sensoractivities.org/act2
+start1 = "2014-05-05T18:27:18"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end1 = "2014-05-05T18:41:53"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+act2 = http://www.sensoractivities.org/act1
+start2 = "2014-05-05T18:18:43"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end2 = "2014-05-05T18:27:34"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+
+act1 = http://www.sensoractivities.org/act3
+start1 = "2014-05-05T18:42:34"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end1 = "2014-05-05T18:55:40"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+act2 = http://www.sensoractivities.org/act4
+start2 = "2014-05-05T18:55:05"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end2 = "2014-05-05T19:03:23"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+
+act1 = http://www.sensoractivities.org/act4
+start1 = "2014-05-05T18:55:05"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end1 = "2014-05-05T19:03:23"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+act2 = http://www.sensoractivities.org/act3
+start2 = "2014-05-05T18:42:34"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end2 = "2014-05-05T18:55:40"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+
+act1 = http://www.sensoractivities.org/act4
+start1 = "2014-05-05T18:55:05"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end1 = "2014-05-05T19:03:23"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+act2 = http://www.sensoractivities.org/act5
+start2 = "2014-05-05T19:03:17"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end2 = "2014-05-05T19:18:09"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+
+act1 = http://www.sensoractivities.org/act5
+start1 = "2014-05-05T19:03:17"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end1 = "2014-05-05T19:18:09"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+act2 = http://www.sensoractivities.org/act4
+start2 = "2014-05-05T18:55:05"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end2 = "2014-05-05T19:03:23"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+
+act1 = http://www.sensoractivities.org/act7
+start1 = "2014-05-05T19:22:13"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end1 = "2014-05-05T19:29:51"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+act2 = http://www.sensoractivities.org/act8
+start2 = "2014-05-05T19:29:10"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end2 = "2014-05-05T19:42:57"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+
+act1 = http://www.sensoractivities.org/act8
+start1 = "2014-05-05T19:29:10"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end1 = "2014-05-05T19:42:57"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+act2 = http://www.sensoractivities.org/act7
+start2 = "2014-05-05T19:22:13"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+end2 = "2014-05-05T19:29:51"^^<http://www.w3.org/2001/XMLSchema#dateTime>

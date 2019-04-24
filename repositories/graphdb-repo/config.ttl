@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rep: <http://www.openrdf.org/config/repository#> .
+@prefix sail: <http://www.openrdf.org/config/sail#> .
+@prefix sr: <http://www.openrdf.org/config/repository/sail#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<#graphdb-repo> a rep:Repository;
+  rep:repositoryID "graphdb-repo";
+  rep:repositoryImpl [
+      rep:repositoryType "openrdf:SailRepository";
+      sr:sailImpl [
+          <http://www.ontotext.com/trree/owlim#repository-type> "file-repository";
+          <http://www.ontotext.com/trree/owlim#ruleset> "owl-horst-optimized";
+          <http://www.ontotext.com/trree/owlim#storage-folder> "storage";
+          sail:sailType "graphdb:FreeSail"
+        ]
+    ];
+  rdfs:label "GraphDB Getting Started" .

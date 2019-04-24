@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rep: <http://www.openrdf.org/config/repository#>.
+@prefix sr: <http://www.openrdf.org/config/repository/sail#>.
+@prefix sail: <http://www.openrdf.org/config/sail#>.
+@prefix owlim: <http://www.ontotext.com/trree/owlim#>.
+
+[] a rep:Repository ;
+  rep:repositoryID "SailSensor-repo" ;
+  rdfs:label "GraphDB Getting Started" ;
+  rep:repositoryImpl [
+    rep:repositoryType "owlim:MonitorRepository" ;
+    sr:sailImpl [
+      sail:sailType "graphdb:FreeSail" ;
+      
+      owlim:storage-folder "storage" ;
+     
+     owlim:repository-type "file-repository" ;
+     
+     
+     owlim:read-only "false" ;
+     owlim:disable-sameAs  "false" ;
+     owlim:query-timeout  "0" ;
+	 owlim:query-limit-results  "0" ;
+     owlim:check-for-inconsistencies "false" ; 
+     
+    ]
+  ].
